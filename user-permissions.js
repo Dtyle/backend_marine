@@ -1,0 +1,33 @@
+const permissions = [
+  { page: "management-dashboard", urlPath: "/management-dashboard" },
+  { page: "entity-manager-dashboard", urlPath: "/entity-manager-dashboard" },
+  { page: "livefeeds", urlPath: "/liveFeeds" },
+  { page: "statistics", urlPath: "/statistics" },
+  { page: "reports", urlPath: "/reports" },
+  { page: "locations", urlPath: "/locations" },
+  { page: "alerts", urlPath: "/alerts" },
+
+  // Admin menus
+  { page: "user", urlPath: "/master-data/user" },
+  { page: "role", urlPath: "/master-data/role" },
+  { page: "entity", urlPath: "/master-data/entity" },
+  { page: "category1", urlPath: "/master-data/categoryMaster" },
+  { page: "category2", urlPath: "/master-data/categoryMaster" },
+  { page: "category3", urlPath: "/master-data/categoryMaster" },
+  { page: "entity-section", urlPath: "/master-data/entitySection" },
+  { page: "reference-master", urlPath: "/master-data/referenceMaster" },
+  // { page: "camera", urlPath: "/master-data/camera" },
+  { page: "deck1", urlPath: "/master-data/deck1" },
+  { page: "deck2", urlPath: "/master-data/deck2" },
+  { page: "deck3", urlPath: "/master-data/deck3" },
+  { page: "deck4", urlPath: "/master-data/deck4" },
+  { page: "deck5", urlPath: "/master-data/deck5" },
+  { page: "deck6", urlPath: "/master-data/deck6" },
+  { page: "deck7", urlPath: "/master-data/deck7" },
+  { page: "deck8", urlPath: "/master-data/deck8" },
+  { page: "deck9", urlPath: "/master-data/deck9" },
+  { page: "deck10", urlPath: "/master-data/deck10" },
+  { page: "deck11", urlPath: "/master-data/deck11" },
+  { page: "deck12", urlPath: "/master-data/deck12" },
+];
+module.exports = permissions;
